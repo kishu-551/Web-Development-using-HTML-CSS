@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Home Page</title>
+	<style type="text/css">
+		header{
+			width: 100%;
+		}
+		ul{
+			list-style-type: none;
+		}
+		#nav-bar{
+			float: right;
+		}
+		#nav-bar li{
+			display: inline-block;
+			padding: 8px;
+		}
+		#nav-bar #sign_in{
+			background-color: navy;
+			margin-right: 25px;
+			padding: 7px,15px;
+			font-weight: bold;
+
+		}
+		#nav-bar #sign_in a{
+			color: white;
+		}
+		a{
+			text-decoration: none;
+		}
+		li.nav-links a:hover{
+			color: grey;
+		}
+		.logo1{
+                text-align: center;
+                padding-top: 90px;
+                display: block;
+		}
+		.form{
+                text-align: center;
+			}
+		#form-search{
+			line-height: 32px;
+			list-style-position: center;
+			padding: 20px,30px;
+            width: 450px;
+            text-shadow: 0.85;
+            
+
+			
+		}
+		.button{
+			text-align: center;
+			padding-top: 0px;
+			margin-bottom: 130px;
+		}
+		footer{
+			background-color: #f2f2f2;
+			border-top: solid 2px #e4e4e4;
+		}
+		footer ul li{
+			display: inline;
+			color: #666666;
+			font-size: 13px;
+			padding: 14px;
+		}
+		footer ul{
+			padding: 2px;
+			float: left;
+		}
+		}
+		.footer-left{
+			float: left;
+		}
+		.footer-right{
+			float: right;
+		}
+		footer ul li a:hover{
+			text-decoration: underline;
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul id="nav-bar">
+				<li class="nav-links"><a href="#">Gmail</a></li>
+				<li class="nav-links"><a href="#">Images</a></li>
+				<li id="sign_in"><a href="#">Sign In</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="logo1">
+		<img src="logo1.png" width="300px"/>
+	</div>
+	<div class="form">
+	<form action="#" method="post" >
+		<label for="form-search" ></label>
+		<input type="text" name="form search" id="form-search" placeholder="Search Google of type URL">
+	</form>
+	<br><br>
+	</div>
+	<div class="button">
+	<input type="submit" value="Google Search" id="Google Search">
+	<input type="submit" value="I'm feeling lucky" id="I'm feeling lucky">
+    </div>
+    <footer>
+    	<ul class="footer-left">
+    		<li><a href="#">Advertising</a></li>
+    		<li><a href="#">Business</a></li>
+    		<li><a href="#">About</a></li>
+    	</ul>
+    	<ul class="footer-right">
+    		<li><a href="#">Privacy</a></li>
+    		<li><a href="#">Term</a></li>
+    		<li><a href="#">Setting</a></li>
+    	</ul>
+
+    </footer>
+</body>
+</html>
